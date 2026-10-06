@@ -1,41 +1,95 @@
+<div align="center">
+
 # MetaKernel
 
-**Infrastructure for governed digital, agentic, and physical systems.**
+### Governed infrastructure for digital, agentic and physical systems
 
-MetaKernel is a provider-neutral foundation for building portable systems that require explicit governance, machine-readable contracts, controlled execution, verifiable evidence, and modular domain composition.
+**Provider-neutral · Contract-driven · Evidence-backed · Portable**
 
-## What this organization is for
+</div>
 
-This organization hosts MetaKernel architecture, implementation work, conformance assets, tooling, and domain-kernel projects.
+<p align="center">
+  <img src="./assets/metakernel-stack.svg" alt="MetaKernel high-level architecture" width="100%" />
+</p>
 
-MetaKernel is designed around a small set of public principles:
+<table>
+<tr>
+<td width="25%" align="center"><b>Governed</b><br/><sub>explicit authority, policy and lifecycle boundaries</sub></td>
+<td width="25%" align="center"><b>Portable</b><br/><sub>hosted, sovereign, on-prem, edge and disconnected profiles</sub></td>
+<td width="25%" align="center"><b>Verifiable</b><br/><sub>evidence, provenance, conformance and audit surfaces</sub></td>
+<td width="25%" align="center"><b>Composable</b><br/><sub>shared kernel → domain kernels → governed products</sub></td>
+</tr>
+</table>
 
-- explicit authority and policy boundaries
-- canonical, versioned contracts and resources
-- provider-neutral infrastructure
-- deterministic and fail-closed behavior where required
-- evidence, provenance, and auditability
-- portable deployment across hosted, sovereign, on-premises, edge, and disconnected environments
-- composable domain kernels and governed workspaces
-- secure integration of software, agents, data, devices, and external providers
+## Explore
 
-## Product model
+<details open>
+<summary><b>Architecture at a glance</b></summary>
 
 ```text
 MetaKernel
-  -> Workspace Runtime Infrastructure
-  -> Domain Kernels
-  -> Governed Products and Platforms
+   │
+   ├── Workspace Runtime Infrastructure
+   │
+   ├── Domain Kernels
+   │      ├── Finance
+   │      ├── Healthcare
+   │      ├── Legal / Regulatory
+   │      └── Other governed domains
+   │
+   └── Products / Platforms / APIs / Apps
 ```
 
-External engines, models, databases, policy systems, agent frameworks, browsers, document processors, observability systems, and other providers remain replaceable behind MetaKernel-defined interfaces and conformance boundaries.
+The public architecture stays intentionally high-level. MetaKernel defines common governance, contract, evidence and portability foundations while domain kernels add sector-specific semantics.
+
+</details>
+
+<details>
+<summary><b>What MetaKernel is designed to support</b></summary>
+
+- governed software and API products
+- agent and tool runtimes
+- physical/digital/hybrid workspaces
+- regulated and evidence-sensitive workflows
+- portable provider integrations
+- domain-specific kernels and reusable infrastructure
+- hosted, sovereign, on-premises, edge and disconnected deployment profiles
+
+</details>
+
+<details>
+<summary><b>Public design principles</b></summary>
+
+MetaKernel's public principles include explicit governance boundaries, canonical and versioned resources, provider-neutral infrastructure, deterministic or fail-closed behavior where required, evidence/provenance/auditability, and composable domain architecture.
+
+External models, databases, policy systems, agent frameworks, browsers, document processors, observability systems and other engines remain replaceable behind MetaKernel-defined interfaces and conformance boundaries.
+
+</details>
+
+<details>
+<summary><b>Repository model</b></summary>
+
+| Area | Purpose |
+|---|---|
+| Core | shared MetaKernel contracts and implementation |
+| Runtime | governed workspace and execution infrastructure |
+| Domain kernels | sector-specific reusable kernels |
+| Providers | replaceable integrations and adapters |
+| Assurance | verification, conformance and evidence assets |
+| Tooling | build, developer and operational tooling |
+
+Repository availability varies by development stage.
+
+</details>
 
 ## Public disclosure boundary
 
-This profile is intentionally a **high-level product and architecture overview**. It is not a technical specification and does not publish proprietary algorithms, internal resolution procedures, implementation sequences, state machines, data models, training methods, decision logic, optimization methods, or other confidential implementation details.
+This profile is a **product and architecture overview**, not a technical specification. It intentionally does not publish proprietary algorithms, internal resolution procedures, implementation sequences, detailed state machines, private data models, optimization methods, model-training methods, or other confidential implementation details.
 
-Detailed designs and implementation material are maintained in controlled repositories and design documents.
+Detailed design and implementation material is maintained in controlled repositories and internal design records.
 
 ---
 
-MetaKernel is under active development.
+<div align="center">
+<sub>MetaKernel is under active development.</sub>
+</div>
