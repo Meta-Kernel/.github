@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<title id="title">MetaKernel high-level architecture</title>
+<desc id="desc">A high-level non-enabling overview: MetaKernel, Workspace Runtime Infrastructure, Domain Kernels, and governed products.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111b"/><stop offset="1" stop-color="#10263a"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity=".25"/></filter>
+</defs>
+<rect width="1200" height="520" rx="28" fill="url(#bg)"/>
+<text x="70" y="70" fill="#dcecff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="700">MetaKernel</text>
+<text x="70" y="105" fill="#88a6c2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">Governed infrastructure for digital, agentic and physical systems</text>
+
+<g filter="url(#shadow)">
+  <rect x="70" y="155" width="240" height="120" rx="18" fill="#132b42" stroke="#3b6b96"/>
+  <text x="190" y="205" text-anchor="middle" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">MetaKernel</text>
+  <text x="190" y="238" text-anchor="middle" fill="#9fc2df" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">contracts · governance · evidence</text>
+
+  <rect x="360" y="155" width="250" height="120" rx="18" fill="#112a35" stroke="#3a827e"/>
+  <text x="485" y="198" text-anchor="middle" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Workspace Runtime</text>
+  <text x="485" y="228" text-anchor="middle" fill="#a9d8d3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">operating boundaries · execution</text>
+  <text x="485" y="250" text-anchor="middle" fill="#a9d8d3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">people · agents · devices · data</text>
+
+  <rect x="660" y="155" width="220" height="120" rx="18" fill="#2d2440" stroke="#735aa4"/>
+  <text x="770" y="205" text-anchor="middle" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Domain Kernels</text>
+  <text x="770" y="238" text-anchor="middle" fill="#c7b4e5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">finance · health · legal · trade</text>
+
+  <rect x="930" y="155" width="200" height="120" rx="18" fill="#3a2a1a" stroke="#a8793a"/>
+  <text x="1030" y="205" text-anchor="middle" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Products</text>
+  <text x="1030" y="238" text-anchor="middle" fill="#e1c49d" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">platforms · APIs · apps</text>
+</g>
+<g stroke="#7da4c7" stroke-width="3" fill="none">
+  <path d="M310 215 H350"/><path d="M610 215 H650"/><path d="M880 215 H920"/>
+</g>
+<g fill="#7da4c7"><path d="M350 215 l-10 -6 v12z"/><path d="M650 215 l-10 -6 v12z"/><path d="M920 215 l-10 -6 v12z"/></g>
+
+<rect x="70" y="330" width="1060" height="120" rx="18" fill="#0b1824" stroke="#27445f"/>
+<text x="95" y="365" fill="#dcecff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">PUBLIC PRINCIPLES</text>
+<text x="95" y="400" fill="#9fb6ca" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">provider-neutral · versioned contracts · explicit governance · fail-closed controls · evidence &amp; provenance · portable deployment</text>
+<text x="95" y="427" fill="#718aa0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">This diagram intentionally stays high-level and does not disclose proprietary implementation sequences or algorithms.</text>
+</svg>
