@@ -68,11 +68,43 @@ Source
 
 Indexes and embeddings are derived, versioned, rebuildable projections. Context must preserve provenance and evidence-grade citations must resolve to a versioned source.
 
+## Native knowledge + decision signals
+
+MetaKernel embeds a provider-neutral knowledge and retrieval spine in the kernel, not a hard-coded vector database or LLM framework.
+
+```text
+Source
+  -> SourceVersion
+  -> Preserve Raw
+  -> Document / Fragment / Locator
+  -> Admissibility
+  -> lexical | vector | graph | symbol projections
+  -> RetrievalRun
+  -> EvidencePack
+  -> ContextPack
+  -> optional JEv / Hokm / model advisory signal
+  -> deterministic T=0
+```
+
+Retrieval results, model outputs, and small decision models are inputs to governed decisions; they are never ambient authority. Indexes and embeddings are derived, versioned, rebuildable projections. Evidence-grade outputs retain provenance and addressable citations.
+
 ## Assurance and durable execution
 
 Evaluation, red-team testing, findings, approvals, controls, checkpoints, replay policy, and execution outcomes are first-class. External evaluation, security, agent, browser, document, retrieval, telemetry, and sandbox systems bind through canonical provider contracts.
 
 No external side effect should cross the effect boundary before a durable `ExecutionIntent` has been committed.
+
+## Replaceable provider ecosystem
+
+External systems bind through canonical ports and registries rather than becoming kernel semantics. Current provider/reference classes include evaluation and red-team systems, durable execution, agent runtimes, browser/computer use, code intelligence, documentation/context sources, document parsing, graph/literature research, observability, publishing, command-risk classification, isolation, policy and supply-chain assurance.
+
+Provider lifecycle is evidence-gated:
+
+```text
+DECLARED -> WIRED -> LOCAL_CONFORMANT -> CLOUD_CONFORMANT -> ACTIVE
+```
+
+A provider manifest is not proof of implementation or conformance.
 
 ## Provider-neutral by design
 
