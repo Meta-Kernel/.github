@@ -1,146 +1,41 @@
 # MetaKernel
 
-**Constitutional infrastructure for governed digital, agentic, and physical systems.**
+**Infrastructure for governed digital, agentic, and physical systems.**
 
-MetaKernel is a provider-neutral metakernel and system foundry for building portable, policy-governed products from canonical contracts. It treats identity, authority, schema, policy, bindings, evidence, execution, retrieval, and runtime behavior as explicit machine-readable infrastructure rather than application conventions.
+MetaKernel is a provider-neutral foundation for building portable systems that require explicit governance, machine-readable contracts, controlled execution, verifiable evidence, and modular domain composition.
 
-## Core position
+## What this organization is for
 
-MetaKernel is built around a simple rule:
+This organization hosts MetaKernel architecture, implementation work, conformance assets, tooling, and domain-kernel projects.
 
-> No effect without canonical resolution, authority, policy, admissibility, durable intent, and evidence.
+MetaKernel is designed around a small set of public principles:
 
-The kernel is designed to support hosted, on-premises, edge, sovereign, and air-gapped deployments while keeping domain products and external providers replaceable.
-
-## Architecture
-
-The architecture is **Constitution-First, Object-First, Contract-First, Registry-First, Policy-First, Evidence-First, Deterministic-First, Zero-Trust, Sandbox-First, and Agentic-First**.
-
-First-class planes include:
-
-- Control, Semantic, Data, Governance, Execution, Exchange, Runtime, Commercial, and Communication
-- Knowledge & Retrieval
-- Assurance
-- Perception & Learning
-- Observability
-- Developer / Code Intelligence
-
-Canonical resources include namespaces, objects, schemas, contracts, manifests, capabilities, authorities, policies, bindings, obligations, effects, evidence, workflows, runtimes, agents, tools, connectors, providers, knowledge sources, retrieval runs, context packs, evaluations, findings, checkpoints, and replay policies.
-
-## T=0
-
-MetaKernel uses a canonical admission boundary for material actions:
-
-```text
-resource
-  -> contract
-  -> constitution / invariants
-  -> authority grants
-  -> policy
-  -> boundary
-  -> binding requirements / instances
-  -> obligation discharges
-  -> idempotency / replay
-  -> ADMIT | DENY
-  -> committed effect intent
-  -> effect
-  -> evidence / lineage
-```
-
-Caller assertions, model outputs, retrieval results, risk classifiers, agent frameworks, and external services are never authoritative by themselves.
-
-## Native knowledge and retrieval
-
-MetaKernel treats retrieval as kernel infrastructure, not as a hard-coded vector database.
-
-```text
-Source
-  -> SourceVersion
-  -> governed ingestion
-  -> canonical Document / Fragment
-  -> lexical | vector | graph | symbol retrieval
-  -> RetrievalRun
-  -> EvidencePack
-  -> ContextPack
-  -> optional model / JEv-style advisory signal
-  -> deterministic T=0
-```
-
-Indexes and embeddings are derived, versioned, rebuildable projections. Context must preserve provenance and evidence-grade citations must resolve to a versioned source.
-
-## Native knowledge + decision signals
-
-MetaKernel embeds a provider-neutral knowledge and retrieval spine in the kernel, not a hard-coded vector database or LLM framework.
-
-```text
-Source
-  -> SourceVersion
-  -> Preserve Raw
-  -> Document / Fragment / Locator
-  -> Admissibility
-  -> lexical | vector | graph | symbol projections
-  -> RetrievalRun
-  -> EvidencePack
-  -> ContextPack
-  -> optional JEv / Hokm / model advisory signal
-  -> deterministic T=0
-```
-
-Retrieval results, model outputs, and small decision models are inputs to governed decisions; they are never ambient authority. Indexes and embeddings are derived, versioned, rebuildable projections. Evidence-grade outputs retain provenance and addressable citations.
-
-## Assurance and durable execution
-
-Evaluation, red-team testing, findings, approvals, controls, checkpoints, replay policy, and execution outcomes are first-class. External evaluation, security, agent, browser, document, retrieval, telemetry, and sandbox systems bind through canonical provider contracts.
-
-No external side effect should cross the effect boundary before a durable `ExecutionIntent` has been committed.
-
-## Replaceable provider ecosystem
-
-External systems bind through canonical ports and registries rather than becoming kernel semantics. Current provider/reference classes include evaluation and red-team systems, durable execution, agent runtimes, browser/computer use, code intelligence, documentation/context sources, document parsing, graph/literature research, observability, publishing, command-risk classification, isolation, policy and supply-chain assurance.
-
-Provider lifecycle is evidence-gated:
-
-```text
-DECLARED -> WIRED -> LOCAL_CONFORMANT -> CLOUD_CONFORMANT -> ACTIVE
-```
-
-A provider manifest is not proof of implementation or conformance.
-
-## Provider-neutral by design
-
-MetaKernel can integrate external runtimes and engines without surrendering canonical state or authority. Provider registration is not conformance:
-
-```text
-DECLARED -> WIRED -> LOCAL_CONFORMANT -> CLOUD_CONFORMANT
-```
-
-Each transition requires evidence.
+- explicit authority and policy boundaries
+- canonical, versioned contracts and resources
+- provider-neutral infrastructure
+- deterministic and fail-closed behavior where required
+- evidence, provenance, and auditability
+- portable deployment across hosted, sovereign, on-premises, edge, and disconnected environments
+- composable domain kernels and governed workspaces
+- secure integration of software, agents, data, devices, and external providers
 
 ## Product model
 
-MetaKernel is intended to sit beneath domain kernels and products:
-
 ```text
 MetaKernel
-    |
-    +-- Workspace Runtime Infrastructure
-    |
-    +-- Domain Kernels
-          |
-          +-- Finance
-          +-- Healthcare
-          +-- Regulation
-          +-- Commerce
-          +-- Property
-          +-- Logistics
-          +-- Identity
-          +-- other governed domains
+  -> Workspace Runtime Infrastructure
+  -> Domain Kernels
+  -> Governed Products and Platforms
 ```
 
-## Principles
+External engines, models, databases, policy systems, agent frameworks, browsers, document processors, observability systems, and other providers remain replaceable behind MetaKernel-defined interfaces and conformance boundaries.
 
-**Preserve before normalize. Resolve before infer. Canonicalize before enrich. Commit intent before effect. Evidence every material outcome.**
+## Public disclosure boundary
+
+This profile is intentionally a **high-level product and architecture overview**. It is not a technical specification and does not publish proprietary algorithms, internal resolution procedures, implementation sequences, state machines, data models, training methods, decision logic, optimization methods, or other confidential implementation details.
+
+Detailed designs and implementation material are maintained in controlled repositories and design documents.
 
 ---
 
-This organization contains the evolving MetaKernel architecture, reference implementations, conformance assets, tooling, and domain-kernel work.
+MetaKernel is under active development.
