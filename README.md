@@ -1,5 +1,5 @@
 # MetaKernel organization profile
 
-The public GitHub organization profile is maintained in `profile/README.md`.
+The public organization profile is maintained in `profile/README.md`.
 
-MetaKernel is constitutional infrastructure for governed digital, agentic and physical systems: canonical contracts, T=0 authority and policy, durable execution, evidence, provider-neutral runtimes, native knowledge/retrieval, assurance and domain-kernel composition.
+This repository intentionally contains only high-level public-facing organization information. Detailed MetaKernel implementation and design material belongs in controlled repositories and design documents.
