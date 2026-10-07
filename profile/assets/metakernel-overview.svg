@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+<title id="title">MetaKernel high-level architecture</title>
+<desc id="desc">A high-level non-enabling overview showing MetaKernel, Workspace Runtime Infrastructure, Domain Kernels, and Governed Products.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0b1020"/>
+    <stop offset="100%" stop-color="#111827"/>
+  </linearGradient>
+  <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#6d5dfc"/>
+    <stop offset="100%" stop-color="#2dd4bf"/>
+  </linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity=".28"/></filter>
+</defs>
+<rect width="1200" height="540" rx="28" fill="url(#bg)"/>
+<text x="60" y="72" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">MetaKernel</text>
+<text x="60" y="108" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">Governed infrastructure for digital, agentic &amp; physical systems</text>
+
+<g filter="url(#shadow)">
+  <rect x="60" y="160" width="250" height="120" rx="20" fill="#172033" stroke="#334155"/>
+  <rect x="335" y="160" width="250" height="120" rx="20" fill="#172033" stroke="#334155"/>
+  <rect x="610" y="160" width="250" height="120" rx="20" fill="#172033" stroke="#334155"/>
+  <rect x="885" y="160" width="250" height="120" rx="20" fill="#172033" stroke="#334155"/>
+</g>
+
+<circle cx="95" cy="196" r="16" fill="url(#g1)"/><text x="126" y="203" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">MetaKernel</text>
+<text x="86" y="235" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Contracts · Governance</text>
+<text x="86" y="258" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Provider-neutral foundation</text>
+
+<circle cx="370" cy="196" r="16" fill="url(#g1)"/><text x="401" y="203" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">Workspace Runtime</text>
+<text x="361" y="235" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Operating boundaries</text>
+<text x="361" y="258" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">People · agents · resources</text>
+
+<circle cx="645" cy="196" r="16" fill="url(#g1)"/><text x="676" y="203" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">Domain Kernels</text>
+<text x="636" y="235" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Composable sector logic</text>
+<text x="636" y="258" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Finance · health · trade · more</text>
+
+<circle cx="920" cy="196" r="16" fill="url(#g1)"/><text x="951" y="203" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700">Products</text>
+<text x="911" y="235" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Governed platforms</text>
+<text x="911" y="258" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Hosted · sovereign · edge</text>
+
+<g stroke="#64748b" stroke-width="3" fill="none">
+  <path d="M310 220 H335"/><path d="M585 220 H610"/><path d="M860 220 H885"/>
+</g>
+<g fill="#64748b"><path d="M329 214 l10 6 -10 6z"/><path d="M604 214 l10 6 -10 6z"/><path d="M879 214 l10 6 -10 6z"/></g>
+
+<rect x="60" y="340" width="1075" height="120" rx="20" fill="#0f172a" stroke="#25324a"/>
+<text x="86" y="378" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Public design principles</text>
+<text x="86" y="414" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Explicit governance   •   Versioned contracts   •   Evidence &amp; provenance   •   Deterministic boundaries   •   Replaceable providers</text>
+<text x="86" y="442" fill="#64748b" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">This diagram is intentionally high-level and does not disclose proprietary implementation methods.</text>
+
+<rect x="60" y="490" width="180" height="4" rx="2" fill="url(#g1)"/>
+</svg>
