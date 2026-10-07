@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-labelledby="title desc">
+<title id="title">MetaKernel public capability pillars</title>
+<desc id="desc">Six high-level capability pillars of MetaKernel.</desc>
+<rect width="1200" height="290" rx="26" fill="#0f172a"/>
+<text x="50" y="58" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700" fill="#fff">Public capability pillars</text>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+  <g transform="translate(50,95)">
+    <rect width="170" height="130" rx="18" fill="#1e293b"/><text x="20" y="43" font-size="19" font-weight="700" fill="#fff">Contracts</text><text x="20" y="76" font-size="14" fill="#cbd5e1">typed · versioned</text><text x="20" y="99" font-size="14" fill="#cbd5e1">machine-readable</text>
+  </g>
+  <g transform="translate(238,95)">
+    <rect width="170" height="130" rx="18" fill="#1e293b"/><text x="20" y="43" font-size="19" font-weight="700" fill="#fff">Governance</text><text x="20" y="76" font-size="14" fill="#cbd5e1">authority · policy</text><text x="20" y="99" font-size="14" fill="#cbd5e1">controlled effects</text>
+  </g>
+  <g transform="translate(426,95)">
+    <rect width="170" height="130" rx="18" fill="#1e293b"/><text x="20" y="43" font-size="19" font-weight="700" fill="#fff">Evidence</text><text x="20" y="76" font-size="14" fill="#cbd5e1">provenance</text><text x="20" y="99" font-size="14" fill="#cbd5e1">auditability</text>
+  </g>
+  <g transform="translate(614,95)">
+    <rect width="170" height="130" rx="18" fill="#1e293b"/><text x="20" y="43" font-size="19" font-weight="700" fill="#fff">Providers</text><text x="20" y="76" font-size="14" fill="#cbd5e1">replaceable ports</text><text x="20" y="99" font-size="14" fill="#cbd5e1">conformance</text>
+  </g>
+  <g transform="translate(802,95)">
+    <rect width="170" height="130" rx="18" fill="#1e293b"/><text x="20" y="43" font-size="19" font-weight="700" fill="#fff">Runtime</text><text x="20" y="76" font-size="14" fill="#cbd5e1">portable</text><text x="20" y="99" font-size="14" fill="#cbd5e1">composable</text>
+  </g>
+  <g transform="translate(990,95)">
+    <rect width="160" height="130" rx="18" fill="#1e293b"/><text x="20" y="43" font-size="19" font-weight="700" fill="#fff">Domains</text><text x="20" y="76" font-size="14" fill="#cbd5e1">kernel packs</text><text x="20" y="99" font-size="14" fill="#cbd5e1">platforms</text>
+  </g>
+</g>
+</svg>
