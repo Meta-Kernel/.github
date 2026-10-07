@@ -2,33 +2,67 @@
 
 # MetaKernel
 
-### Governed infrastructure for digital, agentic & physical systems
+### Governed infrastructure for digital, agentic, and physical systems
 
-**Portable · Provider-neutral · Evidence-aware · Composable**
+**Provider-neutral · portable · contract-driven · evidence-aware**
 
-<img src="./assets/metakernel-overview.svg" alt="MetaKernel high-level architecture" width="100%" />
+<br/>
+
+<img src="./assets/architecture.svg" alt="MetaKernel high-level architecture" width="100%"/>
+
+<br/>
 
 </div>
 
----
+<img src="./assets/capabilities.svg" alt="MetaKernel public capability pillars" width="100%"/>
+
+## Explore MetaKernel
 
 <table>
 <tr>
-<td width="25%" align="center"><strong>MetaKernel</strong><br/><sub>governance foundation</sub></td>
-<td width="25%" align="center"><strong>Workspace Runtime</strong><br/><sub>operating boundaries</sub></td>
-<td width="25%" align="center"><strong>Domain Kernels</strong><br/><sub>sector composition</sub></td>
-<td width="25%" align="center"><strong>Products</strong><br/><sub>governed platforms</sub></td>
+<td width="33%" valign="top">
+
+### 🧭 Architecture
+A layered foundation for composing governed runtimes, domain kernels, and products without hard-wiring infrastructure providers.
+
+</td>
+<td width="33%" valign="top">
+
+### 🧩 Provider neutrality
+Models, databases, policy engines, agent frameworks, browsers, document systems, and infrastructure providers remain replaceable behind defined interfaces.
+
+</td>
+<td width="33%" valign="top">
+
+### 🧾 Evidence-aware systems
+Material operations are designed to remain traceable, governed, and auditable across deployment environments.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 🏢 Workspace runtime
+A common operating boundary for people, organisations, agents, resources, rooms, workflows, and execution contexts.
+
+</td>
+<td valign="top">
+
+### 🧱 Domain kernels
+Reusable domain foundations can support finance, healthcare, commerce, property, and other regulated or operational sectors.
+
+</td>
+<td valign="top">
+
+### 🌍 Portable deployment
+Designed for hosted, sovereign, on-premises, edge, and disconnected deployment profiles.
+
+</td>
 </tr>
 </table>
 
-## What MetaKernel is
-
-MetaKernel is a provider-neutral foundation for building systems that need explicit governance, machine-readable contracts, controlled execution, evidence, provenance, and portable deployment across hosted, sovereign, on-premises, edge, and disconnected environments.
-
-It is designed to support **software, agents, data, devices, organisations, workspaces, and external providers** without making any one vendor or model the semantic center of the system.
-
 <details>
-<summary><strong>🧭 Explore the operating model</strong></summary>
+<summary><strong>▸ Public architecture model</strong></summary>
 
 <br/>
 
@@ -39,72 +73,86 @@ Workspace Runtime Infrastructure
    ↓
 Domain Kernels
    ↓
-Governed Products & Platforms
+Products · Platforms · APIs · Agents · Apps
 ```
 
-The public model is intentionally high-level. Internal algorithms, state machines, resolution procedures, implementation sequences, and proprietary optimization methods are not published here.
+This is intentionally a high-level public model. Internal algorithms, resolution procedures, implementation sequences, state machines, training methods, optimisation techniques, and other confidential implementation details are not published here.
 
 </details>
 
 <details>
-<summary><strong>🧩 Core public principles</strong></summary>
+<summary><strong>▸ Design principles</strong></summary>
 
 <br/>
 
-| Principle | Public meaning |
+MetaKernel projects are developed around public architectural principles including:
+
+- explicit governance, authority, and policy boundaries
+- canonical and versioned resources and contracts
+- provider-neutral ports and conformance boundaries
+- deterministic and fail-closed behavior where appropriate
+- evidence, provenance, lineage, and auditability
+- portable execution across infrastructure environments
+- composable workspaces, domain kernels, and product surfaces
+- machine-readable and automation-friendly interfaces
+
+</details>
+
+<details>
+<summary><strong>▸ What MetaKernel can sit underneath</strong></summary>
+
+<br/>
+
+MetaKernel is intended as shared infrastructure beneath different classes of system, for example:
+
+| System class | Example surface |
 |---|---|
-| Explicit governance | Authority and policy boundaries are deliberate rather than ambient |
-| Canonical contracts | Important resources and interfaces are machine-readable and versioned |
-| Provider neutrality | Infrastructure providers remain replaceable behind stable boundaries |
-| Deterministic boundaries | Critical behavior can fail closed and be reproduced where required |
-| Evidence & provenance | Material actions can be associated with verifiable records and lineage |
-| Composability | Domain kernels and governed workspaces can be assembled without collapsing boundaries |
-| Portability | The same architecture can target hosted, sovereign, edge, on-premises, and disconnected environments |
+| Regulated platforms | finance, healthcare, trade, compliance |
+| Agentic systems | governed agents, tools, browser/computer use |
+| Operational systems | workspaces, workflows, resources, devices |
+| Developer infrastructure | APIs, SDKs, connectors, automation |
+| Data systems | governed ingestion, retrieval, evidence, projections |
+
+These examples describe product categories only; they do not disclose internal implementation methods.
 
 </details>
 
 <details>
-<summary><strong>🗺️ Where MetaKernel fits</strong></summary>
+<summary><strong>▸ Provider model</strong></summary>
 
 <br/>
 
-**Foundational layer** → common governance and contract substrate  
-**Runtime layer** → governed operating/workspace boundaries  
-**Domain layer** → finance, healthcare, trade, industry, and other sector kernels  
-**Product layer** → applications, platforms, developer infrastructure, and regulated systems
+MetaKernel treats external engines and platforms as replaceable providers rather than sources of kernel semantics.
+
+```text
+MetaKernel contract
+      ↓
+provider-neutral port
+      ↓
+selected implementation
+```
+
+Provider selection, compatibility, and deployment can vary by product, jurisdiction, environment, and operational profile.
 
 </details>
 
 <details>
-<summary><strong>🔌 Provider ecosystem</strong></summary>
+<summary><strong>▸ Public disclosure boundary</strong></summary>
 
 <br/>
 
-MetaKernel can integrate external engines, databases, policy systems, model runtimes, agent frameworks, browsers, document processors, observability systems, security tooling, and communications providers through replaceable interfaces and conformance boundaries.
+This GitHub organization profile is a **public-facing product and architecture overview**. It is deliberately non-exhaustive and is not a technical specification.
 
-**A provider is not the kernel.** Provider choice does not redefine MetaKernel semantics.
-
-</details>
-
-<details>
-<summary><strong>🛡️ Public disclosure boundary</strong></summary>
-
-<br/>
-
-This organization profile is a **non-enabling, high-level product and architecture overview**. It intentionally does not publish proprietary algorithms, internal resolution procedures, implementation sequences, state machines, detailed data models, training methods, decision logic, optimization methods, or other confidential implementation details.
-
-Detailed technical designs and implementation material are maintained in controlled repositories and design records.
+Detailed source code, internal algorithms, resolution logic, implementation sequences, model training methods, optimisation methods, confidential architecture, unpublished invention details, and controlled design documents are kept outside this public profile.
 
 </details>
 
 ---
 
-### Current focus
-
-Governed execution · Workspace Runtime Infrastructure · Domain kernels · Evidence/provenance · Provider-neutral integrations · Agentic systems · Portable regulated infrastructure
-
 <div align="center">
 
-**Build systems that can explain what they are, what they may do, and what they actually did.**
+### Build governed systems without making the infrastructure provider the architecture.
+
+<sub>MetaKernel is under active development. Public material may change as interfaces and product surfaces evolve.</sub>
 
 </div>
